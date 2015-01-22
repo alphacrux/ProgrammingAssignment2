@@ -2,7 +2,7 @@
 ## cache the inverse of a invertible matrix.
 
 
-## A generator function which tores a cached inverse of the invertible matrix x
+## A generator function which stores a cached inverse of the invertible matrix x
 
 makeCacheMatrix <- function(x = matrix()) {
     inv_m <- NULL
