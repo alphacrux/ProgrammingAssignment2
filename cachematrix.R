@@ -1,5 +1,5 @@
 ## Funcions makeCacheMatrix and cacheSolve are used together to 
-## cache the inverse of a invertible matrix.
+## calculate and cache the inverse of a invertible matrix.
 
 
 ## A generator function which stores a cached inverse of the invertible matrix x
@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Determines the inverse of an invertible matrix. The
 ## argument "x" must have been created with makeCacheMatrix.
 ## The inverse is calculated during the first call to cacheSolve,
-## subsequent call retrieve the cached inverse matrix.
+## subsequent calls retrieve the cached inverse matrix.
 
 cacheSolve <- function(x) {
     ## Return a matrix that is the inverse of x (actually of the original 
